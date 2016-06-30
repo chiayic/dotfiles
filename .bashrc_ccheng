@@ -1,0 +1,37 @@
+#------------------------------------------------------------------------------
+# JCVI BASH SHELL environment settings
+#------------------------------------------------------------------------------
+#
+# Put your additions/changes below
+#
+#------------------------------------------------------------------------------
+# JCVI BASH SHELL environment settings
+#------------------------------------------------------------------------------
+#
+# Put your additions/changes below
+#
+
+#-------------------------------------------
+# Indirect pointer to the global .cshrc file.
+# Do NOT edit the next line
+#--------------------------------------------
+source /usr/local/global.files/global.cshrc
+
+#-----------------------------------------------------
+#set grid environments
+source /usr/local/sge_current/jcvi/common/settings.csh
+#-----------------------------------------------------
+
+#---------------------------
+#displays current directory
+set prompt = "%B[%/]%b %m:~>"
+#---------------------------
+
+#--------
+stty sane
+#--------
+
+#---------
+#set editor
+set EDITOR = emacs
+#---------
